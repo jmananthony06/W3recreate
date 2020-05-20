@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    color: black;
+    width: 100%
+}
+
+
+/* Top Portion W3 icon */
+
+
+/**** Icon Positioning ****/
+
+.w3-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.w3 {
+    color: rgb(80, 79, 79);
+}
+
+.w3 .com {
+    color: rgb(54, 177, 54);
+}
+
+
+/**** Nav ****/
+
+.nav-container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-bar {
+    background: rgb(80, 79, 79);
+    color: white;
+    width: 100%;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/**** Tutorial Div ****/
+
+.tutorial {
+    margin-top: 25px;
+}
+
+.tutorial h1 {
+    margin-left: 15px;
+}
+
+.tutorial button {
+    background: rgb(54, 177, 54);
+    color: white;
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+
+/**** Begin Content Div ****/
+
+.begin-content {
+    background: rgba(102, 184, 102, 0.438);
+    padding: 20px 20px;
+    text-align: left;
+}
+
+
+/**** Examples Chapter Div ****/
+
+.examples-chapter {
+    text-align: left;
+    padding: 20px 20px;
+}
+
+
+/**** CSS Example Div ****/
+
+.css-snippet {
+    text-align: left;
+    padding: 20px 20px;
+    background-color: rgba(94, 93, 93, 0.11);
+}
+
+.css-snippet button {
+    background: rgb(54, 177, 54);
+    color: white;
+    padding: 10px;
+    margin: 10px 10px;
+    margin-left: 0;
+}
+
+.empty-block {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(44, 43, 43);
+    margin: 11px 0 11px 0;
+}
+
+
+/**** Try It Div ****/
+
+.try-it {
+    text-align: left;
+    padding: 20px 20px;
+    margin-bottom: -35px;
+}
+
+.try-it a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/**** CSS Examples Div ****/
+
+.css-examples {
+    padding: 20px 20px;
+    margin-bottom: -35px;
+}
+
+.css-examples h2 {
+    margin-bottom: 20px;
+}
+
+.css-examples a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/**** CSS Templates Div ****/
+
+.css-templates {
+    padding: 20px 20px;
+    margin-bottom: -35px;
+    margin-top: -13px;
+}
+
+.css-templates h2 {
+    margin-bottom: 20px;
+}
+
+.css-templates a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/**** Exercises Quiz Div ****/
+
+.exercises-quiz {
+    padding: 20px 20px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+
+.exercises-quiz h2 {
+    margin-bottom: 25px;
+}
+
+.eq-green {
+    background-color: rgb(54, 177, 54);
+    padding: 5px;
+    color: white;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.eq-blue {
+    display: block;
+    background-color: rgb(41, 141, 255);
+    padding: 5px;
+    color: white;
+    width: 40%;
+    margin-top: 10px;
+}
+
+
+/**** CSS References Div ****/
+
+.css-references {
+    padding: 20px 20px;
+    margin-bottom: -35px;
+    margin-top: -5px;
+}
+
+.css-references h2 {
+    margin-bottom: 25px;
+}
+
+.css-references ul li {
+    list-style: none;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.css-references ul li a {
+    color: black;
+}
+
+
+/**** Diploma Div ****/
+
+.diploma {
+    padding: 20px 20px;
+}
+
+.diploma h2 {
+    margin-bottom: 20px;
+}
+
+
+/* w3 schools icon style here */
+
+.diploma button {
+    background-color: rgb(54, 177, 54);
+    color: white;
+    padding: 8px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.clickable-cert-links a {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/**** Color Picker Div ****/
+
+.final-portion-wrapper {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.color-picker-container {
+    margin-bottom: 20px;
+}
+
+.color-picker {
+    margin-bottom: 35px;
+}
+
+.li-p {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.li-p h4 {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    padding: 12px;
+    margin: 0;
+}
+
+.li-p ul {
+    padding: 20px 20px;
+    background-color: rgba(95, 95, 95, 0.096);
+}
+
+.li-p ul p {
+    margin: 0;
+}
+
+.li-p a {
+    color: black;
+}
+
+
+/**** Share Certs Container / Div  ****/
+
+.share {
+    margin-bottom: 25px;
+}
+
+.certificates {
+    margin-bottom: 50px;
+}
+
+.certificates ul {
+    margin-top: 20px;
+}
+
+.certificates ul p {
+    margin: 0;
+}
+
+.certificates button {
+    background: rgb(95, 95, 95);
+    color: white;
+    padding: 7px 20px;
+}
+
+
+/**** Misc Container ****/
+
+.misc-container h6 {
+    padding: 7px 40px;
+    margin: 3px;
+    background-color: rgba(139, 139, 139, 0.103);
+}
+
+.misc-container a {
+    color: black;
+}
+
+
+/****  Top Tuts Div ****/
+
+.top-tuts,
+.top-refs,
+.top-examples,
+.web-certs {
+    margin-bottom: 15px;
+}
+
+.top-tuts h5,
+.top-refs h5,
+.top-examples,
+.web-certs {
+    margin-bottom: 15px;
+}
+
+.top-tuts p,
+.top-refs p,
+.top-examples p,
+.web-certs p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.web-certs button {
+    margin: 20px;
+    padding: 7px 15px;
+    font-size: 13px;
+    background-color: rgba(82, 82, 82, 0.884);
+    color: white;
+}
+
+
+/**** Final Content Div ****/
+
+.final-content p {
+    font-size: 13px;
+    color: rgba(82, 82, 82, 0.884);
+}
+
+.final-content {
+    margin-bottom: 50px;
+}
